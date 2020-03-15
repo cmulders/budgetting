@@ -25,7 +25,7 @@ jobs:
         python -m pip install --upgrade pip
         mkdir .venv
         pip install pipenv
-        pipenv sync --bare -d
+        pipenv install --bare -d --system
     - name: Run Tests
       run: |
         python manage.py test
