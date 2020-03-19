@@ -9,10 +9,12 @@ pylint-django = "*"
 mypy = "*"
 flake8 = "*"
 flake8-isort = "*"
+factory-boy = "*"
 
 [packages]
 django = {extras = ["argon2"],version = "*"}
 django-environ = "*"
+mt-940 = "*"
 
 [requires]
 python_version = "3.7"
